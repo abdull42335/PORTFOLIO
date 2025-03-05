@@ -84,6 +84,7 @@ nav ul li.btn.hide i:before {
 }
 @media all and (max-width: 900px) {
   nav {
+   
     padding: 5px 30px;
   }
   nav ul li.items {
@@ -104,3 +105,7 @@ nav ul li.btn.hide i:before {
     opacity: 0;
   }
 }
+
+
+
+
