@@ -7,6 +7,7 @@
   box-sizing: border-box;
   /* font-family: "Montserrat", sans-serif; */
   font-family: "Orbitron", sans-serif;
+  color: #ffffff7a;
 }
 body{
     height: 500vh;
@@ -67,8 +68,9 @@ nav ul li.logo {
   user-select: none;
 }
 .logo img {
-  height: 139px;
-  width: 20%;
+  height: 144px;
+  width: 24%;
+  margin-left: 79px;
 }
 nav ul li a {
   color: white;
@@ -110,6 +112,16 @@ nav ul li.btn.hide i:before {
   nav ul li.items:hover:after {
     opacity: 0;
   }
+
+
+  .container-1{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .left-1 h1{
+    font-size:55px ;
+  }
 }
 
 
@@ -126,12 +138,25 @@ nav ul li.btn.hide i:before {
 }
 .left-1 h1{
   font-size: 65px;
-  transform: skew(-6deg, 360deg);
+  
+  font-style: italic;
 }
 .left-1 h4{
   font-size: 25px;
   line-height: 44px;
   
+}
+.left-1 h5{
+  margin-top: 12px;
+}
+.left-1 a{
+  color: #000000;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.left-1 a:hover{
+color: brown;
+
 }
 
 
