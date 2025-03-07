@@ -8,6 +8,8 @@
   /* font-family: "Montserrat", sans-serif; */
   font-family: "Orbitron", sans-serif;
   color: #ffffff7a;
+  text-decoration: none;
+  list-style: none;
 }
 body{
     height: 500vh;
@@ -122,6 +124,11 @@ nav ul li.btn.hide i:before {
   .left-1 h1{
     font-size:55px ;
   }
+  
+  .link a{
+    font-size: 11px;
+  }
+  
 }
 
 
@@ -137,7 +144,7 @@ nav ul li.btn.hide i:before {
   margin-top: 150px;
 }
 .left-1 h1{
-  font-size: 65px;
+  font-size: 80px;
   
   font-style: italic;
 }
@@ -158,6 +165,47 @@ nav ul li.btn.hide i:before {
 color: brown;
 
 }
+.link{
+  transform: rotate(90deg);
+ 
+  right: -35px;
+  position: fixed;
+  top: 367px;
 
+}
+.link a{
+  color: #ffffff;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.link a:hover{
+color: #17644ad4;
+
+}
+.link span{
+  position: relative;
+  position: relative;
+  top: -10px;
+  left: 230px;
+  color: black;
+}
+/* FIRST-CONTAINER_COMPLETED */
+/* ********************************* */
+
+/* SECOND-CONTAINER STARTING */
+
+.abtheading h1{
+  margin-top: 223px;
+  text-align: center;
+}
+
+.container-2{
+  margin-top: 43px;
+  display: flex;
+  gap: 23px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
 
 
