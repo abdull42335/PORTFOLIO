@@ -259,7 +259,7 @@ nav ul li.btn.hide i:before {
   width: 137%;
   border-radius: 50%;
   transition: all 0.3s ease;
-  opacity: 0.6;
+  opacity: 0.4;
 }
 .right-2 img:hover {
   box-shadow: 0 0 12px #757579;
