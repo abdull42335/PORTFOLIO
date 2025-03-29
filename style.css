@@ -332,3 +332,11 @@ nav ul li.btn.hide i:before {
 .information p {
   margin-top: 6px;
 }
+
+
+
+.proheading h1 {
+  margin-top: 223px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
